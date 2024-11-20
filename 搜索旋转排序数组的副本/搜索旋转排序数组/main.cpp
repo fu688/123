@@ -53,7 +53,8 @@ int main() {
     } else {
         std::cout << "Target not found." << std::endl;
     }
-    return 0;//main对该行代码做了修改
+
+    return 0;//综合考虑main和develop分支的修改思路后重新编写
 }
 
 //第二次添加的内容
